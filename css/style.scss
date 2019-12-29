@@ -1,0 +1,47 @@
+@import 'base/fonts';
+@import 'layout/header';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: brown-regular;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+.artwork{
+margin-top: 30px;
+    li{
+        list-style: none;
+        padding:  10px 0 0 0;
+
+       
+        a{
+            color: white; 
+            text-decoration: none;
+            font-size: 35px;
+            font-family: brown-regular;
+            transition: 0.2s all ease-in;
+           
+        }
+
+        a:hover{
+            transition: 0.2s all ease-in;
+            -webkit-text-stroke: 0.5px white;
+            -webkit-text-fill-color: black;
+        }
+    }
+}
+
+
+.artdisplay{
+ 
+}

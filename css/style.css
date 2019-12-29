@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'brown-bold';
+  src: url("../../fonts/BrownPro-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brown-light';
+  src: url("../../fonts/BrownPro-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brown-regular';
+  src: url("../../fonts/BrownPro-Regular.otf"), url("../../fonts/lineto-brown-pro-regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  border-bottom: 0.8px solid;
+}
+
+.main-nav .logo .navbar-logo {
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.main-nav .menu {
+  position: absolute;
+  right: 20px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav .menu li a {
+  color: white;
+  font-family: brown-regular;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px 0 40px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 3.01px;
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+.main-nav .menu li a:hover {
+  font-weight: bolder;
+  font-size: 16px;
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+.ie-flex {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: brown-regular;
+}
+
+.container-fluid {
+  min-height: 100%;
+}
+
+.artwork {
+  margin-top: 30px;
+}
+
+.artwork li {
+  list-style: none;
+  padding: 10px 0 0 0;
+}
+
+.artwork li a {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: brown-regular;
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+.artwork li a:hover {
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+  -webkit-text-stroke: 0.5px white;
+  -webkit-text-fill-color: black;
+}
+/*# sourceMappingURL=style.css.map */
