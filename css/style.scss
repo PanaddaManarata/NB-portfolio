@@ -1,5 +1,7 @@
 @import 'base/fonts';
+@import 'layout/alum';
 @import 'layout/header';
+@import 'layout/carousel';
 
 *{
     box-sizing: border-box;
@@ -15,6 +17,10 @@ body{
 
 .container-fluid{
     min-height: 100%;
+}
+
+h1{
+    padding: 0 0 20px 40px;
 }
 
 .artwork{
@@ -42,6 +48,14 @@ margin-top: 30px;
 }
 
 
-.artdisplay{
- 
-}
+
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }

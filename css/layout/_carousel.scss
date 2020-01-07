@@ -1,0 +1,35 @@
+.carousel-wrapper {
+  position: relative;
+  height: 80%;
+  text-align: center;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100%;
+
+
+  .additional__text{
+    display: flex;
+    .swiper-text{
+      text-align: left;
+      padding: 50px;
+    }
+  }
+  .swiper-slide {
+    .carousel__img {
+      height: 80vh;
+      background-size: cover;
+
+    }
+
+    video {
+      height: 80vh;
+    }
+
+  
+  }
+
+
+
+}
